@@ -1,0 +1,65 @@
+
+.magtext {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.projectWork {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectWork p {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.iteamName {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.iteam {
+  margin-left: 20px;
+  border: 1px solid #DCDFE6;
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.iteamContent {
+  margin: 0 20px;
+  border: 1px solid #DCDFE6;
+  width: 80%;
+  height: 96px;
+  text-indent: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.Address_footer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Adr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}

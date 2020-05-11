@@ -1,0 +1,83 @@
+.resume-info{
+  padding: 10px 50px 50px 50px;
+}
+.resume-form{
+  background: #F9F9F9;
+  padding: 40px 35px 10px 35px;
+  margin-top: 20px 0;
+}
+.resume-info-head{
+  float: left;
+  margin-left: 20px;
+  padding-top: 10px;
+  height: 120px;
+}
+p{
+  margin:0 0 20px;
+}
+.font-h1{
+  font-size: 30px;
+}
+.font-h2{
+  font-size: 24px;
+  margin:0 0 30px;
+}
+.font-h3{
+  font-size: 18px;
+  margin:20px 0;
+}
+.font-label{
+  display: inline-block;
+  min-width: 60px;
+  text-align: left;
+  font-size: 15px;
+  color: #999;
+}
+.font-line{
+  display: inline-block;
+  min-width: 20px;
+  text-align: center;
+}
+.font-text{
+  display: inline-block;
+  min-width: 60px;
+  text-align: left;
+}
+.font-area{
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+}
+.font-edit{
+  display: inline-block;
+  float: right;
+  min-width: 60px;
+  cursor: pointer;
+  text-align: left;
+}
+.font-edit:hover{
+  display: inline-block;
+  float: right;
+  min-width: 60px;
+  cursor: pointer;
+  text-align: left;
+  color: #1787fb;
+}
+.font-edit i{
+  font-size: 16px;
+}
+
+.box-card[align='center']{
+  cursor: pointer;
+}
+.box-card{
+  margin: 10px 0;
+}
+.el-divider--horizontal{
+  margin: 40px 0;
+}
+.el-image{
+  float: left;
+  width: 100px; height: 120px;
+}

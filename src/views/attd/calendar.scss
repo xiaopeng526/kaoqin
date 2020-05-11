@@ -1,0 +1,119 @@
+body,html{
+    height: 100%;
+}
+p, ul, li{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+.calendar_box{
+    width:96%;
+    height:100%;
+    overflow: hidden;
+    text-align: center;
+    padding-left:15px;
+    .week_box{
+        display: flex;
+        .week_day{
+            flex: 1;
+            color:rgb(3, 125, 247);
+            text-align: center;
+            padding: 10px 0;
+            font-size:20px;
+            font-weight: 500;
+        }
+    }
+    .day_box{
+        .weekend_style{
+            span:first-child{
+                color:rgb(173, 173, 173);
+            }
+        }
+        .days{
+            position: relative;
+            display: block;
+            width: 14.25%;
+            height:46px;
+            line-height: 28px;
+            float: left;
+            color:#000;
+            text-align: center;
+            .day_num{
+                width:100%;
+                display:inline-block;
+            }
+            ul{
+                position: absolute;
+                top:35%;
+                left:50%;
+                transform:translate(-49%,0);
+            }
+        }
+    }
+}
+.pots{
+    width:100%;
+    height:30%;
+    padding-bottom: 40px;
+    margin-top:20px;
+    ul{
+        width: 93%;
+        text-align: left;
+        padding-left:7%;
+        li{
+            display: inline-block;
+            width:30%;
+            height: 20px;
+            line-height: 20px;
+            margin-left:2%;
+            span{
+                font-size:14px;
+            }
+            :first-child{
+                margin-right:10px;
+            }
+        }
+    }
+}
+.fr{
+    float:right;
+}
+.fl{
+    float:left;
+}
+li{
+    list-style:none;
+}
+// TS04审批通过
+.green_spot{
+    background:#1acc7b;
+}
+// TS02审批中(需要部门经理确认-请假) 和 TS01审批中(一级审批通过)
+.blue_spot{
+    background:#4877e8;
+}
+// TS03已拒绝
+.red_spot{
+    background:#f26549;
+}
+.purple_spot{
+    background: #8e29ff;
+}
+// 状态TS00--未审批
+.yellow_spot{
+    background:#ffac29;
+}
+.spot_circle{
+    display:inline-block;
+    border-radius:50%;
+    width:10px;
+    height:10px;
+    line-height: 16px;
+    margin-top:2px;
+}
+.is_selected_day, .now_day{
+    background: #0f9cfa;
+    border-radius: 50%;
+}
